@@ -19,3 +19,6 @@ a:active{
     text-decoration: none;
     color:rgb(55, 225, 55);
 }
+table, th, td{
+    border: 1px solid black;
+}
