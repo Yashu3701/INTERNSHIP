@@ -1,6 +1,10 @@
 html{
     scroll-behavior: smooth;
+  
 }
+body {
+    background-color: lightblue;
+  }
 h1{
     font-size: 25px;
     text-align: center;
