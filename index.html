@@ -52,6 +52,7 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt sit unde voluptatum animi in eligendi architecto harum, cum et quam aspernatur deserunt necessitatibus facilis perferendis impedit, odit quas consequuntur.</p>
     <h3>chapter 1</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt sit unde voluptatum animi in eligendi architecto harum, cum et quam aspernatur deserunt necessitatibus facilis perferendis impedit, odit quas consequuntur.</p>
+    
     <p style="font-size: 20px;border: 1px solid black; padding: 10px;">This para</p>
     <table style="width: 100%; margin-bottom: 500px;">
         <tr>
@@ -179,9 +180,34 @@ function myFunction(x,y){
         // console.log(arr);
         // arr.push("hi");
         // console.log(arr);
-        // var date = new Date();
+        //var date = new Date();
         // console.log(date);
 
+        switch(new Date().getDay()){
+            case 0:
+                console.log("Sunday");
+                break;
+            case 1:
+                console.log("Monday");
+                break;
+            case 2:
+                console.log("Tuesday");
+                break;
+            case 3:
+                console.log("Wednesday");
+                break;
+            case 4:
+                console.log("Thursday");
+                break;
+            case 5:
+                console.log("Friday");
+                break;
+            case 6:
+                console.log("Saturday");
+                break;
+            default:
+                console.log("Invalid");
+        }
     </script>
 </body>
 </html>
